@@ -1,0 +1,24 @@
+
+<div class="header">
+
+  <div class="div-1">
+ Welcome !
+  </div>
+
+  <div class="div-2">
+    <div *ngIf="flag">
+      <button [routerLink]="['/A']">
+        Load  A
+      </button>
+    </div>
+
+    <div *ngIf="!flag">
+
+      <button [routerLink]="['/B']">
+        Load  B
+      </button>
+
+    </div>
+
+  </div>
+</div>

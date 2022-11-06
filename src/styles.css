@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background: linear-gradient(to bottom, #3185c1 0%,#3280b7 30%, #10437d 100%) no-repeat;
+  height: 100vh;
+  padding: 40px 100px 40px 100px;
+  font-family: Rockwell;
+}
+@media screen and (max-width: 500px) {
+  body{
+    padding: 20px 40px 20px 40px;
+  }
+}
